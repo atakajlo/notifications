@@ -1,0 +1,29 @@
+{
+    "name": "atakajlo/notifications",
+    "description": "Simple notification system",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Fedorenko",
+            "email": "atakajlo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Atakajlo\\Notifications\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Atakajlo\\Notifications\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
